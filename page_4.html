@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photos of bithday someone</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            scroll-padding: 0 50%;
+            scroll-behavior: smooth;
+        }
+
+        img {
+            scroll-snap-align: center;
+            scroll-margin: 0 10px;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #c30966, #c85b6b, #be63a8);
+            color: rgb(235, 207, 207);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            max-width: 400px;
+            max-height: 600px;
+            animation: fadeIn 2s ease-in-out;
+            /* text-align: center; */
+            display: flex;
+            /* justify-content: center; */
+            flex-direction: row;
+            overflow: hidden;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0.1;
+                transform: scale(0.4);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .container img {
+            max-width: 60%;
+            height: auto;
+            border-radius: 15px;
+            border: #fef5fc 3px solid;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            animation: photoFadeIn 2s ease-in-out;
+            margin: 15px;
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            scroll-behavior: smooth;
+            transition: trnasform 0.3s ease-in-out;
+        }
+
+        @keyframes photoFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        button {
+            background: linear-gradient(45deg, #ff69b4, #ff1493);
+            color: white;
+            border: solid rgb(155, 6, 110) 1px;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .button-container {
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .container {
+            overflow-x: auto;
+            overflow-y: hidden;
+
+        }
+
+        @media (max-width: 768px) {
+            body {
+                touch-action: pan-y;
+            }
+
+            img:active {
+                transform: scale(0.98) !important;
+            }
+        }
+
+        .container {
+            scroll-snap-type: x mandatory;
+            touch-action: pan-x;
+            -webkit-overflow-scrolling: touch;
+            overscroll-behavior-x: contain;
+            cursor: grab;
+        }
+
+        .container:active {
+            cursor: grabbing;
+        }
+
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            opacity: 0.2;
+        }
+
+        p {
+            font-family: 'Dancing Script', cursive;
+            font-size: 40px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 0px, 20px, 10px;
+            top: 0px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        #mysong {
+           padding: 10px;
+           margin: 2px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <p>Happy Bithday <br> 💕Mummy💕</p>
+    </div>
+    <img src="images/7.jpg" class="background" alt="">
+    <div class="container">
+        <img class="1" src="images/1.jpg" alt="Birthday">
+        <img class="2" src="images/2.jpg" alt="Birthday">
+        <img class="3" src="images/3.jpg" alt="Birthday">
+        <img class="4" src="images/4.jpg" alt="Birthday">
+        <img class="5" src="images/5.jpg" alt="Birthday">
+        <img class="6" src="images/6.jpg" alt="Birthday">
+        <img class="7" src="images/7.jpg" alt="Birthday">
+        <img class="8" src="images/8.jpg" alt="Birthday">
+        <img class="9" src="images/9.jpg" alt="Birthday">
+        <img class="10" src="images/10.jpg" alt="Birthday">
+        <img class="11" src="images/11.jpg" alt="Birthday">
+        <img class="12" src="images/12.jpg" alt="Birthday">
+        <img class="13" src="images/13.jpg" alt="Birthday">
+        <img class="14" src="images/14.jpg" alt="Birthday">
+        <img class="15" src="images/15.jpg" alt="Birthday">
+        <img class="16" src="images/16.jpg" alt="Birthday">
+        <img class="17" src="images/17.jpg" alt="Birthday">
+        <img class="18" src="images/18.jpg" alt="Birthday">
+        <img class="19" src="images/19.jpg" alt="Birthday">
+        <img class="20" src="images/20.jpg" alt="Birthday">
+        <img class="21" src="images/21.jpg" alt="Birthday">
+        <img class="22" src="images/22.jpg" alt="Birthday">
+        <img class="23" src="images/23.jpg" alt="Birthday">
+        <img class="24" src="images/24.jpg" alt="Birthday">
+        <img class="25" src="images/25.jpg" alt="Birthday">
+        <img class="26" src="images/26.jpg" alt="Birthday">
+        <img class="27" src="images/27.jpg" alt="Birthday">
+        <img class="28" src="images/28.jpg" alt="Birthday">
+    </div>
+    <div class="button-container">
+        <a href="page_3.html"><button>Prev page</button></a>
+        <a href="index.html"><button>Home Page</button></a>
+
+    </div>
+    <audio src="images/Happy Birthday.mp3" autoplay loop ></audio>
+    <script>
+        container.scrollLeft = 0; 
+    </script>
+    <script>
+        let container, imgWidth, startX = 0, isDragging = false;
+
+        function initCarousel() {
+            container = document.querySelector('.container');
+            const firstImg = container.children[0];
+            imgWidth = firstImg.offsetWidth + 30;
+        }
+
+        function moveSlide(step) {
+            container.scrollBy({ left: step * imgWidth, behavior: 'smooth' });
+        }
+        container.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].clientX;
+            isDragging = true;
+            container.style.scrollSnapType = 'none';
+        }, { passive: true });
+
+        container.addEventListener('touchmove', (e) => {
+            if (!isDragging) return;
+            e.preventDefault();
+            const currentX = e.touches[0].clientX;
+            const diffX = startX - currentX;
+            container.scrollLeft += diffX;
+            startX = currentX;
+        }, { passive: false });
+
+        container.addEventListener('touchend', () => {
+            container.style.scrollSnapType = 'x mandatory';
+            isDragging = false;
+        });
+
+        // MOUSE DRAG (Desktop testing के लिए)
+        let startMouseX;
+        container.addEventListener('mousedown', (e) => {
+            startMouseX = e.clientX;
+            isDragging = true;
+            container.style.scrollSnapType = 'none';
+            container.style.cursor = 'grabbing';
+        });
+
+        container.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            const diffX = startMouseX - e.clientX;
+            container.scrollLeft += diffX;
+            startMouseX = e.clientX;
+        });
+
+        container.addEventListener('mouseup', () => {
+            container.style.scrollSnapType = 'x mandatory';
+            container.style.cursor = 'grab';
+            isDragging = false;
+        });
+
+        // Existing code
+        window.addEventListener('load', initCarousel);
+        window.addEventListener('resize', initCarousel);
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') moveSlide(-1);
+            if (e.key === 'ArrowRight') moveSlide(1);
+        });
+
+
+    </script>
+</body>
+
+</html>
